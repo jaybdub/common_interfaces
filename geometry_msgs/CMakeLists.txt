@@ -17,7 +17,7 @@ set(msg_files
 #                build for by default.
   "msg/Point.msg"
   "msg/Point32.msg"
-  # "msg/PointStamped.msg"
+  "msg/PointStamped.msg"
   # "msg/Polygon.msg"
   # "msg/PolygonStamped.msg"
   "msg/Pose.msg"
