@@ -53,4 +53,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
+install(
+  DIRECTORY include/
+  DESTINATION include
+)
+
 ament_package()
